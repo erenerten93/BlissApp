@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B588C3329ABD9E10089C75F /* AvatarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B588C3229ABD9E10089C75F /* AvatarModel.swift */; };
+		3B588C3529ABDC960089C75F /* RepoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B588C3429ABDC960089C75F /* RepoModel.swift */; };
+		3B588C3729ACC3180089C75F /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B588C3629ACC3180089C75F /* RepoTableViewCell.swift */; };
+		3B588C3B29AD2E710089C75F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B588C3A29AD2E710089C75F /* DataManager.swift */; };
 		3B594682299FCAA500E47740 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B594681299FCAA500E47740 /* AppDelegate.swift */; };
 		3B594684299FCAA500E47740 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B594683299FCAA500E47740 /* SceneDelegate.swift */; };
-		3B594686299FCAA500E47740 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B594685299FCAA500E47740 /* ViewController.swift */; };
 		3B594689299FCAA500E47740 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B594687299FCAA500E47740 /* Main.storyboard */; };
 		3B59468C299FCAA500E47740 /* BlissApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B59468A299FCAA500E47740 /* BlissApp.xcdatamodeld */; };
 		3B59468E299FCAA700E47740 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B59468D299FCAA700E47740 /* Assets.xcassets */; };
@@ -17,6 +20,26 @@
 		3B59469C299FCAA700E47740 /* BlissAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59469B299FCAA700E47740 /* BlissAppTests.swift */; };
 		3B5946A6299FCAA700E47740 /* BlissAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5946A5299FCAA700E47740 /* BlissAppUITests.swift */; };
 		3B5946A8299FCAA700E47740 /* BlissAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5946A7299FCAA700E47740 /* BlissAppUITestsLaunchTests.swift */; };
+		3B5946B7299FD16F00E47740 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5946B6299FD16F00E47740 /* APIRequest.swift */; };
+		3B5946B9299FD5CA00E47740 /* EmojiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5946B8299FD5CA00E47740 /* EmojiViewModel.swift */; };
+		3B5946BB299FD9F700E47740 /* EmojiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5946BA299FD9F700E47740 /* EmojiVC.swift */; };
+		3B59470229A0475700E47740 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59470129A0475700E47740 /* Router.swift */; };
+		3B59470529A1511400E47740 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59470429A1511400E47740 /* EmojiModel.swift */; };
+		3B59470729A4218B00E47740 /* EmojiCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59470629A4218B00E47740 /* EmojiCollectionViewCell.swift */; };
+		3B59470E29A7813100E47740 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59470D29A7813100E47740 /* AppCoordinator.swift */; };
+		3B59471429A7C6CA00E47740 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59471329A7C6CA00E47740 /* MainCoordinator.swift */; };
+		3B59471A29A7C81700E47740 /* ImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59471929A7C81700E47740 /* ImageViewExtensions.swift */; };
+		3B59472629A7F09800E47740 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59472529A7F09800E47740 /* BaseCoordinator.swift */; };
+		3B59472829A7F15F00E47740 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59472729A7F15F00E47740 /* Coordinator.swift */; };
+		3B59472A29A7F2C800E47740 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59472929A7F2C800E47740 /* MainVC.swift */; };
+		3B59472C29A7F2ED00E47740 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59472B29A7F2ED00E47740 /* MainViewModel.swift */; };
+		3B59472E29A7F5DD00E47740 /* AvatarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59472D29A7F5DD00E47740 /* AvatarVC.swift */; };
+		3B59473029A7F5EC00E47740 /* AvatarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59472F29A7F5EC00E47740 /* AvatarViewModel.swift */; };
+		3B59473229A7F64A00E47740 /* ReposVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59473129A7F64A00E47740 /* ReposVC.swift */; };
+		3B59473429A7F65800E47740 /* ReposViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B59473329A7F65800E47740 /* ReposViewModel.swift */; };
+		9E5D1B6EAA1213384476F0F5 /* Pods_BlissAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD737EC4B47D8634003765AA /* Pods_BlissAppTests.framework */; };
+		BA1D831E95858F6B4F0D158E /* Pods_BlissApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97073921899F58F9228A0973 /* Pods_BlissApp.framework */; };
+		EA42C19823AD629920719326 /* Pods_BlissApp_BlissAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A3EBE449F8E4DB1C4AD596 /* Pods_BlissApp_BlissAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +60,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14CDEAA0E91E5CB45C59A009 /* Pods-BlissAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissAppTests.release.xcconfig"; path = "Target Support Files/Pods-BlissAppTests/Pods-BlissAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		3B588C3229ABD9E10089C75F /* AvatarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarModel.swift; sourceTree = "<group>"; };
+		3B588C3429ABDC960089C75F /* RepoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoModel.swift; sourceTree = "<group>"; };
+		3B588C3629ACC3180089C75F /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		3B588C3A29AD2E710089C75F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		3B59467E299FCAA500E47740 /* BlissApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlissApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B594681299FCAA500E47740 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B594683299FCAA500E47740 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B594685299FCAA500E47740 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B594688299FCAA500E47740 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B59468B299FCAA500E47740 /* BlissApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BlissApp.xcdatamodel; sourceTree = "<group>"; };
 		3B59468D299FCAA700E47740 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +78,31 @@
 		3B5946A1299FCAA700E47740 /* BlissAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlissAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5946A5299FCAA700E47740 /* BlissAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlissAppUITests.swift; sourceTree = "<group>"; };
 		3B5946A7299FCAA700E47740 /* BlissAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlissAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B5946B6299FD16F00E47740 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		3B5946B8299FD5CA00E47740 /* EmojiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiViewModel.swift; sourceTree = "<group>"; };
+		3B5946BA299FD9F700E47740 /* EmojiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiVC.swift; sourceTree = "<group>"; };
+		3B59470129A0475700E47740 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		3B59470429A1511400E47740 /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
+		3B59470629A4218B00E47740 /* EmojiCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiCollectionViewCell.swift; sourceTree = "<group>"; };
+		3B59470D29A7813100E47740 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		3B59471329A7C6CA00E47740 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		3B59471929A7C81700E47740 /* ImageViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewExtensions.swift; sourceTree = "<group>"; };
+		3B59472529A7F09800E47740 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		3B59472729A7F15F00E47740 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		3B59472929A7F2C800E47740 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		3B59472B29A7F2ED00E47740 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3B59472D29A7F5DD00E47740 /* AvatarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarVC.swift; sourceTree = "<group>"; };
+		3B59472F29A7F5EC00E47740 /* AvatarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarViewModel.swift; sourceTree = "<group>"; };
+		3B59473129A7F64A00E47740 /* ReposVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposVC.swift; sourceTree = "<group>"; };
+		3B59473329A7F65800E47740 /* ReposViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReposViewModel.swift; sourceTree = "<group>"; };
+		85A3EBE449F8E4DB1C4AD596 /* Pods_BlissApp_BlissAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlissApp_BlissAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97073921899F58F9228A0973 /* Pods_BlissApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlissApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FBCD81490984EF0E6C1A87 /* Pods-BlissApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissApp.release.xcconfig"; path = "Target Support Files/Pods-BlissApp/Pods-BlissApp.release.xcconfig"; sourceTree = "<group>"; };
+		B169B493979531FE494F4096 /* Pods-BlissAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissAppTests.debug.xcconfig"; path = "Target Support Files/Pods-BlissAppTests/Pods-BlissAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C2B3A11BA6A513BE5B8C9424 /* Pods-BlissApp-BlissAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissApp-BlissAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8D71453BAB3B4A87C818E2B /* Pods-BlissApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissApp.debug.xcconfig"; path = "Target Support Files/Pods-BlissApp/Pods-BlissApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CDB1DF14057DFF11D7F83209 /* Pods-BlissApp-BlissAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlissApp-BlissAppUITests.release.xcconfig"; path = "Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD737EC4B47D8634003765AA /* Pods_BlissAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlissAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA1D831E95858F6B4F0D158E /* Pods_BlissApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5D1B6EAA1213384476F0F5 /* Pods_BlissAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +126,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA42C19823AD629920719326 /* Pods_BlissApp_BlissAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A9D8EAAF9DD51CDEB7EA3AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97073921899F58F9228A0973 /* Pods_BlissApp.framework */,
+				85A3EBE449F8E4DB1C4AD596 /* Pods_BlissApp_BlissAppUITests.framework */,
+				FD737EC4B47D8634003765AA /* Pods_BlissAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B588C3929AD2E480089C75F /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				3B59468A299FCAA500E47740 /* BlissApp.xcdatamodeld */,
+				3B588C3A29AD2E710089C75F /* DataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
 		3B594675299FCAA500E47740 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +159,8 @@
 				3B59469A299FCAA700E47740 /* BlissAppTests */,
 				3B5946A4299FCAA700E47740 /* BlissAppUITests */,
 				3B59467F299FCAA500E47740 /* Products */,
+				981E7993029B117A1FEC8D7D /* Pods */,
+				2A9D8EAAF9DD51CDEB7EA3AB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +177,19 @@
 		3B594680299FCAA500E47740 /* BlissApp */ = {
 			isa = PBXGroup;
 			children = (
+				3B588C3929AD2E480089C75F /* CoreDataManager */,
 				3B594681299FCAA500E47740 /* AppDelegate.swift */,
 				3B594683299FCAA500E47740 /* SceneDelegate.swift */,
-				3B594685299FCAA500E47740 /* ViewController.swift */,
-				3B594687299FCAA500E47740 /* Main.storyboard */,
 				3B59468D299FCAA700E47740 /* Assets.xcassets */,
-				3B59468F299FCAA700E47740 /* LaunchScreen.storyboard */,
 				3B594692299FCAA700E47740 /* Info.plist */,
-				3B59468A299FCAA500E47740 /* BlissApp.xcdatamodeld */,
+				3B59470C29A7812400E47740 /* Navigation */,
+				3B59471629A7C77800E47740 /* Models */,
+				3B59471529A7C72100E47740 /* Views */,
+				3B59471F29A7C8DC00E47740 /* ViewModels */,
+				3B59471C29A7C85000E47740 /* Coordinators */,
+				3B59470329A0479700E47740 /* NetworkLayer */,
+				3B59471829A7C7FF00E47740 /* Helpers */,
+				3B59471D29A7C89600E47740 /* StoryBoards */,
 			);
 			path = BlissApp;
 			sourceTree = "<group>";
@@ -130,6 +211,105 @@
 			path = BlissAppUITests;
 			sourceTree = "<group>";
 		};
+		3B59470329A0479700E47740 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				3B59470129A0475700E47740 /* Router.swift */,
+				3B5946B6299FD16F00E47740 /* APIRequest.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		3B59470C29A7812400E47740 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				3B59470D29A7813100E47740 /* AppCoordinator.swift */,
+				3B59472529A7F09800E47740 /* BaseCoordinator.swift */,
+				3B59472729A7F15F00E47740 /* Coordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		3B59471529A7C72100E47740 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B59472929A7F2C800E47740 /* MainVC.swift */,
+				3B5946BA299FD9F700E47740 /* EmojiVC.swift */,
+				3B59472D29A7F5DD00E47740 /* AvatarVC.swift */,
+				3B59473129A7F64A00E47740 /* ReposVC.swift */,
+				3B59472029A7C90B00E47740 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B59471629A7C77800E47740 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B59470429A1511400E47740 /* EmojiModel.swift */,
+				3B588C3229ABD9E10089C75F /* AvatarModel.swift */,
+				3B588C3429ABDC960089C75F /* RepoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B59471829A7C7FF00E47740 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3B59471929A7C81700E47740 /* ImageViewExtensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3B59471C29A7C85000E47740 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				3B59471329A7C6CA00E47740 /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		3B59471D29A7C89600E47740 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				3B594687299FCAA500E47740 /* Main.storyboard */,
+				3B59468F299FCAA700E47740 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		3B59471F29A7C8DC00E47740 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3B59472B29A7F2ED00E47740 /* MainViewModel.swift */,
+				3B5946B8299FD5CA00E47740 /* EmojiViewModel.swift */,
+				3B59472F29A7F5EC00E47740 /* AvatarViewModel.swift */,
+				3B59473329A7F65800E47740 /* ReposViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3B59472029A7C90B00E47740 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3B59470629A4218B00E47740 /* EmojiCollectionViewCell.swift */,
+				3B588C3629ACC3180089C75F /* RepoTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		981E7993029B117A1FEC8D7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8D71453BAB3B4A87C818E2B /* Pods-BlissApp.debug.xcconfig */,
+				A3FBCD81490984EF0E6C1A87 /* Pods-BlissApp.release.xcconfig */,
+				C2B3A11BA6A513BE5B8C9424 /* Pods-BlissApp-BlissAppUITests.debug.xcconfig */,
+				CDB1DF14057DFF11D7F83209 /* Pods-BlissApp-BlissAppUITests.release.xcconfig */,
+				B169B493979531FE494F4096 /* Pods-BlissAppTests.debug.xcconfig */,
+				14CDEAA0E91E5CB45C59A009 /* Pods-BlissAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B5946AB299FCAA700E47740 /* Build configuration list for PBXNativeTarget "BlissApp" */;
 			buildPhases = (
+				C236C10F694D47250300A94A /* [CP] Check Pods Manifest.lock */,
 				3B59467A299FCAA500E47740 /* Sources */,
 				3B59467B299FCAA500E47740 /* Frameworks */,
 				3B59467C299FCAA500E47740 /* Resources */,
+				642E8D9E082CEBE000ADB0C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +336,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B5946AE299FCAA700E47740 /* Build configuration list for PBXNativeTarget "BlissAppTests" */;
 			buildPhases = (
+				5E28CBF77DB44FD35ADA510B /* [CP] Check Pods Manifest.lock */,
 				3B594693299FCAA700E47740 /* Sources */,
 				3B594694299FCAA700E47740 /* Frameworks */,
 				3B594695299FCAA700E47740 /* Resources */,
@@ -172,9 +355,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B5946B1299FCAA700E47740 /* Build configuration list for PBXNativeTarget "BlissAppUITests" */;
 			buildPhases = (
+				F757DAEE8C8CE6B7897737D3 /* [CP] Check Pods Manifest.lock */,
 				3B59469D299FCAA700E47740 /* Sources */,
 				3B59469E299FCAA700E47740 /* Frameworks */,
 				3B59469F299FCAA700E47740 /* Resources */,
+				793B862F4A45140FD27A1EC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,15 +441,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5E28CBF77DB44FD35ADA510B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlissAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		642E8D9E082CEBE000ADB0C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlissApp/Pods-BlissApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlissApp/Pods-BlissApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlissApp/Pods-BlissApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		793B862F4A45140FD27A1EC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlissApp-BlissAppUITests/Pods-BlissApp-BlissAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C236C10F694D47250300A94A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlissApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F757DAEE8C8CE6B7897737D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlissApp-BlissAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B59467A299FCAA500E47740 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B594686299FCAA500E47740 /* ViewController.swift in Sources */,
+				3B59473429A7F65800E47740 /* ReposViewModel.swift in Sources */,
+				3B588C3B29AD2E710089C75F /* DataManager.swift in Sources */,
+				3B59473029A7F5EC00E47740 /* AvatarViewModel.swift in Sources */,
+				3B588C3729ACC3180089C75F /* RepoTableViewCell.swift in Sources */,
+				3B59472829A7F15F00E47740 /* Coordinator.swift in Sources */,
+				3B59472A29A7F2C800E47740 /* MainVC.swift in Sources */,
+				3B59470529A1511400E47740 /* EmojiModel.swift in Sources */,
+				3B59472E29A7F5DD00E47740 /* AvatarVC.swift in Sources */,
+				3B59470E29A7813100E47740 /* AppCoordinator.swift in Sources */,
+				3B59471A29A7C81700E47740 /* ImageViewExtensions.swift in Sources */,
+				3B59470229A0475700E47740 /* Router.swift in Sources */,
 				3B594682299FCAA500E47740 /* AppDelegate.swift in Sources */,
 				3B594684299FCAA500E47740 /* SceneDelegate.swift in Sources */,
+				3B588C3529ABDC960089C75F /* RepoModel.swift in Sources */,
+				3B59471429A7C6CA00E47740 /* MainCoordinator.swift in Sources */,
+				3B59473229A7F64A00E47740 /* ReposVC.swift in Sources */,
+				3B5946B7299FD16F00E47740 /* APIRequest.swift in Sources */,
+				3B5946B9299FD5CA00E47740 /* EmojiViewModel.swift in Sources */,
+				3B59472629A7F09800E47740 /* BaseCoordinator.swift in Sources */,
 				3B59468C299FCAA500E47740 /* BlissApp.xcdatamodeld in Sources */,
+				3B588C3329ABD9E10089C75F /* AvatarModel.swift in Sources */,
+				3B59470729A4218B00E47740 /* EmojiCollectionViewCell.swift in Sources */,
+				3B5946BB299FD9F700E47740 /* EmojiVC.swift in Sources */,
+				3B59472C29A7F2ED00E47740 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +684,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 			};
 			name = Debug;
 		};
@@ -429,13 +739,16 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		3B5946AC299FCAA700E47740 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D71453BAB3B4A87C818E2B /* Pods-BlissApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,8 +760,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +770,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "eren-erten.BlissApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +778,7 @@
 		};
 		3B5946AD299FCAA700E47740 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FBCD81490984EF0E6C1A87 /* Pods-BlissApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -475,8 +790,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,6 +800,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "eren-erten.BlissApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -492,6 +808,7 @@
 		};
 		3B5946AF299FCAA700E47740 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B169B493979531FE494F4096 /* Pods-BlissAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +829,7 @@
 		};
 		3B5946B0299FCAA700E47740 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14CDEAA0E91E5CB45C59A009 /* Pods-BlissAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +850,7 @@
 		};
 		3B5946B2299FCAA700E47740 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B3A11BA6A513BE5B8C9424 /* Pods-BlissApp-BlissAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +869,7 @@
 		};
 		3B5946B3299FCAA700E47740 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB1DF14057DFF11D7F83209 /* Pods-BlissApp-BlissAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
