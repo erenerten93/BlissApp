@@ -49,13 +49,6 @@ class MainVC: UIViewController {
         self.viewModel?.onTapAvatarLists()
     }
     
-    public func displayAlertMessage(error: NSError) {
-        let alertcontroller = UIAlertController(title: "error title", message: " error message", preferredStyle: .alert)
-        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-        alertcontroller.addAction(okAction)
-        self.present(alertcontroller, animated: true, completion: nil)
-    }
-    
     deinit {
         print(#function , NSStringFromClass(MainVC.self))
     }

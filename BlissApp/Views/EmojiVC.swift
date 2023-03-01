@@ -33,14 +33,6 @@ class EmojiVC: UIViewController {
         }.disposed(by: disposeBag)
     }
     
-    func errorAlert(){
-        let alert = UIAlertController(title: "Error", message: "Check your internet connection and TRY Again!", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Ok", style: .cancel))
-        self.present(alert, animated: true)
-        
-    }
-    
-    
     deinit {
       print(#function , NSStringFromClass(EmojiVC.self))
     }

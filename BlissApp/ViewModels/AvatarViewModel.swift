@@ -14,5 +14,4 @@ class AvatarViewModel {
     var disposeBag = DisposeBag()
     
     var avatarList:Observable<[AvatarModel]>?
-    
 }

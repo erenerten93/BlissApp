@@ -26,10 +26,10 @@ class AppCoordinator: BaseCoordinator {
     guard let window = window else { return }
     window.rootViewController = rootViewController
     window.makeKeyAndVisible()
-    loginFlow()
+    mainFlow()
   }
   
-  private func loginFlow() {
+  private func mainFlow() {
     let mainCoordinator = MainCoordinator(navigationcontroller: self.rootViewController)
     store(coordinator: mainCoordinator)
     mainCoordinator.start()

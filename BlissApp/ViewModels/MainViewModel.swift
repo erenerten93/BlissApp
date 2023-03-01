@@ -72,12 +72,6 @@ class MainViewModel {
         }).disposed(by: disposeBag)
         
     }
-    
-    func fetchSearchedEmoji(){
-        
-        
-    }
-    
     func fetchEmojiList() {
         element = request.callAPIWithoutStandardModelObject(router:Router.getEmojis)
         element?.subscribe(

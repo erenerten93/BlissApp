@@ -15,8 +15,6 @@ class AvatarVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-   
-    
     deinit {
       print(#function , NSStringFromClass(AvatarVC.self))
     }
